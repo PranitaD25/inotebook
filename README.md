@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+
+# INotebook App
+
+INotebook is a React Application for managing personal notes on the cloud
+Notebook on the cloud.Can be used to store any important notes on cloud
+● can apply CRUD on notes via created api requests to database like post,get,delete,etc
+● Used React,Express js,Mongodb,Mongoose,thunderClient
+
+## Features
+
+- Validation for Login/Logout
+- Password Hashing,salt,pepper
+- perform CRUD on note
+-Fetch only user specific notes
+
+
+
+## Tech Stack
+
+**Client:** CSS,HTMl,React,Redux
+
+**Server:** Node, Express, ThunderClient
+
+**Database**:MongoDb Atlas
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -18,6 +42,22 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+To create a react app
+```
+ npx create-react-app iNotebook
+```
+
+
+Installing Express and Mongoose
+```
+npm i express,mongoose
+```
+
+Installing nodemon
+```
+npm i -D nodemon
+```
 
 ### `npm run build`
 
@@ -68,3 +108,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Authors
+
+- [Pranita Deshpande]()
